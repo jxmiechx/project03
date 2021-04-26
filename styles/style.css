@@ -9,6 +9,7 @@ h1 {
 }
 ul {
     list-style: none;
+    text-align: center;
 }
 body {
     font-size: 1em;
@@ -18,7 +19,7 @@ body {
     text-align: left;
     margin-left: 10%;
     margin-right: 10%;
-    width:1350px;
+    width:1370px;
     /*this is so the navigation menu will be centered*/
     margin: 0 auto;
     padding-right: 0%;
@@ -35,14 +36,21 @@ body {
 table {
     border:solid;
     margin: 5%;
-    margin-bottom: 20%;
+    margin-bottom: 5%;
     margin-left: auto;
     margin-right: auto;
 }
 caption {
     font-size: 2em;
 }
+
+p {
+    text-align: center;
+}
 td,th {
+    border:solid;
+    margin: 5%;
+    margin-bottom: 20%;
     padding:.5em;
     padding-right: .5em;
 }
