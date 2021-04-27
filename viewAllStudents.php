@@ -10,13 +10,15 @@ function readStudentsFile() {
     foreach ($arr as $line) {  
        // explode returns an array of strings where each element in the array
        // corresponds to each substring between the delimiters
-       $splitcontents = explode($delimiter, $line);       
+       $splitcontents = explode($delimiter, $line);   
+       echo $splitcontents[1];    
+       echo $line;
        $student = array();
        //put $splitcontents into an associative array for ease of use in html
        $student['fname'] = $splitcontents[0];
        $student['lname'] = $splitcontents[1];
-       $student['university_status'] = $splitcontents[2];
-       $student['email'] = $splitcontents[3];
+       //$student['university_status'] = $splitcontents[2];
+       $student['email'] = $splitcontents[2];
        // add student to array of students
        //when you add an element to an array in php, if you don't
        //give it an index or key, it just adds it to the end
