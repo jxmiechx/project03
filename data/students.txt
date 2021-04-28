@@ -1,2 +1,1 @@
-
-Jamie,Cha,,jcha5@villanova.edu
+Jamie,Cha,2nd Year,jcha5@villanova.edu,Computer Science

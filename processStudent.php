@@ -19,6 +19,7 @@ key is size and val is "size of file" */
     $lname = $_POST["lname"];
     $type = $_POST["university_status"];
     $email = $_POST["email"];
+    $major = $_POST["major"];
     
     //create students.txt if it doesn't exist
     $file = 'data/students.txt';
@@ -30,15 +31,15 @@ key is size and val is "size of file" */
 $current = file_get_contents($file);
 
 // Append a new student to the file
-$current .= "$fname,$lname,$type,$email\n";
+$current .= "$fname,$lname,$type,$email,$major\n";
 
 // Write the contents back to the file
 file_put_contents($file, $current);
 
 /* end PHP and begin html */
 ?>
+    <caption>Student Info</caption>
     <table>
-      <caption>Student Info</caption>
       <tr>
         <td>First Name</td>    
         <td><?php echo $fname; ?></td> 
@@ -55,6 +56,10 @@ file_put_contents($file, $current);
         <td>Student Email</td>
         <td><?php echo $email; ?></td>
       </tr>
+      <tr>
+        <td>Student Major</td>
+        <td><?php echo $major; ?></td>
+      </tr>
     </table>
     <p><a href="php.html" button type="button" class="btn btn-info">Go Back</button></a>
     
@@ -65,6 +70,9 @@ file_put_contents($file, $current);
         echo 'Sorry nothing to upload';
     }
   ?>
+<div class="alert alert-success" role="alert">
+  Your information has been added!
+</div>
 </main>       
 </body>
 </html>
