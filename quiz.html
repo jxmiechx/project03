@@ -1,4 +1,5 @@
 <html>
+
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
@@ -6,31 +7,45 @@
 
 </head>
 
-<body>
+<body background="images/villanova background.jpg">
     <div id="border">
         <div id="banner">
-            <h1>What's my Major?</h1>
+            <h1 style="text-align:center"><span class="d-block p-2 bg-dark text-white">What's my Major?</h1>
             <nav>
-                <ul>
-                    <li><a href="index.html">About The Project</a></li>
-                    <li><a href="quiz.html">What's My Major?</a></li>
-                    <li><a href="collegeofengineering.html">College of Engineering</a></li>
-                    <li><a href="collegeofnursing.html">College of Nursing</a></li>
-                    <li><a href="collegeofliberalartsandscience.html">College of Liberal Arts and Science</a></li>
-                    <li><a href="schoolofbusiness.html">School Of Business</a></li>
+                <ul class="nav justify-content-center">
+                    <p><br></p>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">About The
+                            Project</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="quiz.html">What's My
+                            Major?</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page"
+                            href="collegeofengineering.html">College of Engineering</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page"
+                            href="collegeofnursing.html">College of Nursing</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page"
+                            href="collegeofliberalartsandscience.html">College of Liberal Arts and Science</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page"
+                            href="schoolofbusiness.html">School Of Business</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="php.html">Connect</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="quotes.html">Inspirational
+                            Quotes</a></li>
                 </ul>
             </nav>
         </div>
-        <p> <br>We know that as an incoming freshman you may not know what
-            you want to do as a major. If you are undecided or not sure
-            if the major you chose is right for you, try taking some
-            of these quizzes! These quizzes will suggest what your major
-            should be based on your answers. <br><br> Villanova University also
-            provides you with helpful resources on exploring majors. </p>
+        <div class="card">
+            <div class="card-body">
+                We know that as an incoming freshman you may not know what
+                you want to do as a major. If you are undecided or not sure
+                if the major you chose is right for you, try taking some
+                of these quizzes! These quizzes will suggest what your major
+                should be based on your answers. <br><br> Villanova University also
+                provides you with helpful resources on exploring majors.
+            </div>
+        </div>
 
         <!--Quizzes table-->
-        <caption>Quizzes</caption>
-        <table class="table table-hover">
+        <h1>Quizzes</h1>
+        <table class="table table-light table-hover">
             <thead>
                 <tr>
                     <th scope="col">Site Name</th>
@@ -41,8 +56,8 @@
                 <tr>
                     <td>
                         <ul>
-                            <li><a href="https://asafuturescape.org/?gclid=Cj0KCQjwyZmEBhCpARIsALIzmnI_jPZqnTO-Py2kZ5ctfS3ugUW
-                        IxDfPdGR40EhvxbIoqLT6jCxIzgAaAt07EALw_wcB">ASA Futurescape</a></li>
+                            <a href="https://asafuturescape.org/?gclid=Cj0KCQjwyZmEBhCpARIsALIzmnI_jPZqnTO-Py2kZ5ctfS3ugUW
+                        IxDfPdGR40EhvxbIoqLT6jCxIzgAaAt07EALw_wcB">ASA Futurescape</a>
                         </ul>
                     </td>
                     <td>This webstie is designed to determine your future with an interactive quiz. Through their 11
@@ -54,9 +69,9 @@
                 <tr>
                     <td>
                         <ul>
-                            <li><a href="https://www.indigopathway.com/?utm_source=google&utm_medium=search&utm_campaign=
+                            <a href="https://www.indigopathway.com/?utm_source=google&utm_medium=search&utm_campaign=
                         pathway&utm_term=future&gclid=Cj0KCQjwyZmEBhCpARIsALIzmnKrAZ-TlaPD80qZzHThLgFP0j_3Xvg8k6
-                        TIy1Rxt9evQBR8wj1p9MUaAux9EALw_wcB">Indigo Pathway</a></li>
+                        TIy1Rxt9evQBR8wj1p9MUaAux9EALw_wcB">Indigo Pathway</a>
                         </ul>
                     </td>
                     <td>This one is your basic "What's My Major" quiz. Just 10 minutes and it suggests you highly
@@ -67,8 +82,8 @@
         </table>
 
         <!--Villanova Resources table-->
-        <caption>Villanova Resources</caption>
-        <table class="table table-hover">
+        <h2>Villanova Resources</h2>
+        <table class="table table-light table-hover">
             <thead>
                 <tr>
                     <th scope="col">Site Name</th>
@@ -79,8 +94,7 @@
                 <tr>
                     <td>
                         <ul>
-                            <li><a href="https://www1.villanova.edu/university/programs.html">Villanova Programs</a>
-                            </li>
+                            <a href="https://www1.villanova.edu/university/programs.html">Villanova Programs</a>
                         </ul>
                     </td>
                     <td>Villanova's own web page to help you explore the many programs that they offer. If you know
@@ -90,10 +104,10 @@
                 <tr>
                     <td>
                         <ul>
-                            <li><a href="https://www1.villanova.edu/villanova/artsci/undergrad/ous/advising.html">Academic
-                                    Advising</a></li>
+                            <a href="https://www1.villanova.edu/villanova/artsci/undergrad/ous/advising.html">Academic
+                                Advising</a>
                     <td>If you are undecided, there is a high chance that you are in the Liberal Arts and Science
-                        school. 
+                        school.
                         In that case, check out this Villanova website that has all the information on advisors. You are
                         already
                         matched with an advisor and you can find their contact information here as well. Advisors help
@@ -103,8 +117,8 @@
                 <tr>
                     <td>
                         <ul>
-                            <li><a href="https://www1.villanova.edu/villanova/provost/careers/plan.html">Career
-                                    Center</a></li>
+                            <a href="https://www1.villanova.edu/villanova/provost/careers/plan.html">Career
+                                Center</a>
                     <td>This webpage from the Villanova website gives you lots of options to explore your future major.
                         You
                         can explore careers and even see the outcomes by major. Once you have a major, they can even
@@ -115,29 +129,28 @@
                 </tr>
             </tbody>
         </table>
-
-        <!--Our Resources table-->
-        <caption>Our Resources</caption>
-        <table class="table table-hover">
-            <thead>
-                <tr>
-                    <th scope="col">Site Name</th>
-                    <th scope="col">Description</th>
-                </tr>
-            </thead>
-            <tr>
-                <td>
-                    <ul>
-                        <li><a href="https://www1.villanova.edu/university/programs.html">insert the links here</a></li>
-                    </ul>
-                    </ul>
-                </td>
-                <td> If you are not undecided in Liberal Arts and Science or you just want more specific
-                    information based on each other schools at Villanova, feel free to use our very own website
-                    to help you!
-                </td>
-            </tr>
-        </table>
     </div>
+    <style>
+        body {
+            background-size: cover;
+            background-size: fixed;
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+        }
+
+        h2 {
+            text-align: center;
+            color: white;
+        }
+
+        h3 {
+            text-align: center;
+            color: white;
+        }
+    </style>
+</body>
 
 </html>
