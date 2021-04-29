@@ -5,7 +5,7 @@
         <!--<link type="text/css" rel= "stylesheet" href= "styles/style.css">-->
 
     </head>
-    <body>
+    <body background="images/villanova background.jpg">
         <div id="border">
             <div id="banner">
         <h1 style="text-align:center"><span class="d-block p-2 bg-dark text-white">Project 03</h1>
@@ -22,5 +22,25 @@
                       <li class="nav-item"><a class="nav-link active" aria-current="page" href="quotes.html">Inspirational Quotes</a></li>
                </ul>
         </nav>
+        <style>
+        body {
+            background-size: cover;
+            background-size: fixed;
+        }
+        h1 {
+        text-align: center;
+        color: white;
+        }
+    
+        h2 {
+          text-align: center;
+          color: white;
+        }
+    
+        h3{
+            text-align: center;
+            color: white; }
+        </style>
+        </body>
         </div>
         

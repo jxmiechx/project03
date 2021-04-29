@@ -28,7 +28,7 @@ function readStudentsFile() {
 ?>
 
 <!--table to display all the students who filled out a form-->
-<table class="table table-hover">
+<table class = "table table-light table-hover">
             <thead>
                 <tr>
                     <th scope="col">Student Name</th>
