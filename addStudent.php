@@ -7,7 +7,7 @@
   for the purpose of being able to contact one another. If you do not agree, please do not fill out this
   form. Thank you.
 </div>
-      <h3>Add Student Details</h3>
+      <h3>Add Your Student Details</h3>
         <p>First Name<br/>
             <input type="text" name="fname">
         </p>
