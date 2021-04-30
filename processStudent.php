@@ -1,17 +1,5 @@
 <?php include 'header.php'; ?>
 <?php
-/*processPet.php does 2 things:
-  1. moves the uploaded pet image to the images folder in our web_portfolio folder
-  2. saves the pet info in a file read by viewAllPets.php
-  */
-
-  /*See what's in FILES array. 
-This is what will print:
-key is name and val is "name of file"
-key is type and val is "file type eg. jpeg"
-key is tmp_name and val is "location of where apache web server stores uploaded file by default"
-key is error and val is 0
-key is size and val is "size of file" */
 
 
   if ($_SERVER["REQUEST_METHOD"] == "POST") {
