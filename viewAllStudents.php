@@ -45,7 +45,7 @@ function readStudentsFile() {
                     echo '<td>' . $student['fname'] . ' ' . $student['lname'] . '</td>';
                     echo '<td>' . $student['university_status'] . '</td>';
                     echo '<td>' . $student['email'] . '</td>';
-                    echo '<td>' . $student['major'] . '</td>';
+                    echo '<td>' . $student['major'] . '<br>'. '</td>';
                     echo '</tr>';
                 } 
             ?>  
